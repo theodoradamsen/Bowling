@@ -36,7 +36,7 @@ public class BowlingFrameTest {
 	
 	@Test
 	public void testIsSpare() throws Exception {
-		frame.rollFirst(5);
+		frame.rollFirst(2);
 		frame.rollSecond(5);
 		assertTrue(frame.isSpare());
 	}
